@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ydyo.css">
+    <title>Gazi YDYO Ortalama Hesaplama</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="donem" id="donem">
+            <table>
+                <tr><h2>Güz Dönemi</h2></tr>
+                <tr><td><h4 class="basliklar">Quiz 1 :</h4></td><td><input class="notlar" id="gq1" type="text" maxlength="5" pattern="\d*"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz 2 :</h4></td><td><input class="notlar" id="gq2" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz 3 :</h4></td><td><input class="notlar" id="gq3" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz 4 :</h4></td><td><input class="notlar" id="gq4" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz 5 :</h4></td><td><input class="notlar" id="gq5" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz 6 :</h4></td><td><input class="notlar" id="gq6" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz 7 :</h4></td><td><input class="notlar" id="gq7" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz 8 :</h4></td><td><input class="notlar" id="gq8" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz 9 :</h4></td><td><input class="notlar" id="gq9" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz 10 :</h4></td><td><input class="notlar" id="gq10" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Ara Sınav 1 :</h4></td><td><input class="notlar" id="gs1" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Ara Sınav 2 :</h4></td><td><input class="notlar" id="gs2" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Ara Sınav 3 :</h4></td><td><input class="notlar" id="gs3" type="text" maxlength="5"></td></tr>
+            </table>
+        </div>
+        <div class="donem">
+            <table>
+                <tr><h2>Bahar Dönemi</h2></tr>
+                <tr><td><h4 class="basliklar">Quiz1 :</h4></td><td><input class="notlar" id="bq1" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz2 :</h4></td><td><input class="notlar" id="bq2" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz3 :</h4></td><td><input class="notlar" id="bq3" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz4 :</h4></td><td><input class="notlar" id="bq4" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz5 :</h4></td><td><input class="notlar" id="bq5" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz6 :</h4></td><td><input class="notlar" id="bq6" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz7 :</h4></td><td><input class="notlar" id="bq7" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz8 :</h4></td><td><input class="notlar" id="bq8" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz9 :</h4></td><td><input class="notlar" id="bq9" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Quiz10 :</h4></td><td><input class="notlar" id="bq10" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Ara Sınav 1 :</h4></td><td><input class="notlar" id="bs1" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Ara Sınav 2 :</h4></td><td><input class="notlar" id="bs2" type="text" maxlength="5"></td></tr>
+                <tr><td><h4 class="basliklar">Ara Sınav 3 :</h4></td><td><input class="notlar" id="bs3" type="text" maxlength="5"></td></tr>
+            </table>
+        </div>
+        <div class="part_three">
+            <div class="final_part">
+                <table>
+                    <tr><td><h4>Final Notu :</h4></td><td><input class="notlar" id="final" type="text" maxlength="5"></td></tr>
+                </table>
+            </div>
+            <div class="result" id="result">
+                <table>
+                    <tr><h3>Güz Dönemi Ortalaması</h3></tr>
+                    <tr><label id="guz">0</label></tr>
+                    <tr><h3>Bahar Dönemi Ortalaması</h3></tr>
+                    <tr><label id="bahar">0</label></tr>
+                    <tr><h3>Yıl Sonu Ortalaması</h3></tr>
+                    <tr><label id="ys">0</label></tr>
+                    <tr><h3>Geçme Durumu</h3></tr>
+                    <tr><h1 id="sonuc">Lütfen bir not giriniz.</h1></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="extra_part">
+        <h4>*Girilmeyen notlar "0" kabul edilir.</h4>
+        <h4>*İkinci dönem ortalaman 74.5 üzeri ise yıl sonu ortalamana bakılmadan ve finale girmeden geçti sayılırsın.</h4>
+    </div>
+    <script>
+        function hesapla(){
+            var sgq1=document.getElementById("gq1");
+            var sgq2=document.getElementById("gq2");
+            var sgq3=document.getElementById("gq3");
+            var sgq4=document.getElementById("gq4");
+            var sgq5=document.getElementById("gq5");
+            var sgq6=document.getElementById("gq6");
+            var sgq7=document.getElementById("gq7");
+            var sgq8=document.getElementById("gq8");
+            var sgq9=document.getElementById("gq9");
+            var sgq10=document.getElementById("gq10");
+            var sgs1=document.getElementById("gs1");
+            var sgs2=document.getElementById("gs2");
+            var sgs3=document.getElementById("gs3");
+            var sonuc_guz=(sgq1.value)*(3/100)+(sgq2.value)*(3/100)+(sgq3.value)*(3/100)+(sgq4.value)*(3/100)+(sgq5.value)*(3/100)+(sgq6.value)*(3/100)+(sgq7.value)*(3/100)+(sgq8.value)*(3/100)+(sgq9.value)*(3/100)+(sgq10.value)*(3/100)+(sgs1.value)*(23/100)+(sgs2.value)*(23/100)+(sgs3.value)*(24/100);
+            document.getElementById("guz").innerHTML = sonuc_guz;
+
+            var sbq1=document.getElementById("bq1");
+            var sbq2=document.getElementById("bq2");
+            var sbq3=document.getElementById("bq3");
+            var sbq4=document.getElementById("bq4");
+            var sbq5=document.getElementById("bq5");
+            var sbq6=document.getElementById("bq6");
+            var sbq7=document.getElementById("bq7");
+            var sbq8=document.getElementById("bq8");
+            var sbq9=document.getElementById("bq9");
+            var sbq10=document.getElementById("bq10");
+            var sbs1=document.getElementById("bs1");
+            var sbs2=document.getElementById("bs2");
+            var sbs3=document.getElementById("bs3");
+            var sonuc_bahar=(sbq1.value)*(3/100)+(sbq2.value)*(3/100)+(sbq3.value)*(3/100)+(sbq4.value)*(3/100)+(sbq5.value)*(3/100)+(sbq6.value)*(3/100)+(sbq7.value)*(3/100)+(sbq8.value)*(3/100)+(sbq9.value)*(3/100)+(sbq10.value)*(3/100)+(sbs1.value)*(23/100)+(sbs2.value)*(23/100)+(sbs3.value)*(24/100);
+            document.getElementById("bahar").innerHTML = sonuc_bahar;
+
+            var sf=document.getElementById("final");
+            var sys= (sonuc_guz)*(16/100)+(sonuc_bahar)*(24/100)+(sf.value)*(60/100);
+            document.getElementById("ys").innerHTML = sys;
+
+            if(sonuc_bahar > 74.5 || sys > 60){
+                document.getElementById("sonuc").innerHTML = "GEÇTİ";
+                yesil = "lightgreen"
+                document.getElementById("sonuc").style.background=yesil;
+                document.body.style.background=yesil;
+                document.getElementById("container").style.background=yesil;
+            }
+            else {
+                document.getElementById("sonuc").innerHTML = "Hazırlık"
+                kirmizi = "#FF5247"
+                document.getElementById("sonuc").style.background=kirmizi;
+                document.body.style.background=kirmizi;
+                document.getElementById("container").style.background=kirmizi;
+            }
+            
+        }
+        addEventListener("input", hesapla)
+    </script>
+</body>
+</html>

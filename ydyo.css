@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container{
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    width: 90%;
+}
+
+td{
+    width: 50%;
+}
+
+.donem{
+    text-align: center;
+    background-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.basliklar{
+    margin: 5%;
+}
+
+input{
+    width: 50%;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {  
+  -webkit-appearance: none;   margin: 0; 
+}
+
+.part_three{
+    text-align: center;
+    width: 40%;
+}
+
+.final_part{
+    text-align: center;
+    background-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    height: 15%;
+}
+
+.result{
+    text-align: center;
+    align-items: center;
+    justify-items:baseline;
+    background-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    height: 85%;
+}
+
+#sonuc{
+    margin: 5%;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.extra_part{
+    text-align: center;
+    background-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    margin: 5%;
+    margin-top: 0%;
+    width: 90%;
+
+}
+
+@media only screen and (min-width:704px) and (max-width:818px){
+    .donem{
+        width: 35%;
+    }
+    .part_three{
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:704px){
+    .container{
+        margin: 2%;
+        margin-bottom: 0%;
+        width: 96%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .donem{
+        width: 100%;
+    }
+    table{
+        display: inline-block;
+    }
+    .part_three{
+        width: 100%;
+    }
+    .extra_part{
+        margin: 2%;
+        margin-top: 0%;
+        width: 96%;
+    }
+}
