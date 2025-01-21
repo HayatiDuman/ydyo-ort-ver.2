@@ -1,3 +1,3 @@
-# Gazi üniversitesi Hazırlık Öğrencileri için tasarlandı.
+# Gazi Üniversitesi hazırlık öğrencileri için tasarlandı.
 ## Alt Bilgi
 Hayati Duman <3
